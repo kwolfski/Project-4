@@ -17,17 +17,17 @@ document.getElementById('BtnDemosthenes').addEventListener('click', function(){
 var Churchill = {
     name: 'Winston Churchill',
     year: 1940,
-    bce: 'false',
+    bce: false,
 };
 
 var Ghandi = {
     name: 'Ghandi',
     year: 1942,
-    bce: 'false',
+    bce: false,
 };
 
 var Demosthenes = {
     name: 'Demosthenes',
     year: 342 B.C.E.,
-    bce: 'true',
+    bce: true,
 };
