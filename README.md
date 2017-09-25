@@ -14,20 +14,30 @@ document.getElementById('BtnDemosthenes').addEventListener('click', function(){
   //Code in here executes when the user clicks the "Demosthenes" button.
 });
 
-var Churchill = {
+// speech objects 
+
+var churchillSpeech = {
     name: 'Winston Churchill',
     year: 1940,
-    bce: false,
+    bce: false
 };
 
-var Ghandi = {
+var ghandiSpeech = {
     name: 'Ghandi',
     year: 1942,
-    bce: false,
+    bce: false
 };
 
-var Demosthenes = {
+var demosthenesSpeech = {
     name: 'Demosthenes',
     year: 342 B.C.E.,
-    bce: true,
+    bce: true
 };
+
+// array of speeches 
+
+var allSpeeches = ['churchillSpeech', 'ghandiSpeech', 'demosthenesSpeech'];
+
+// a variable that contains a calculation of the difference between the year of Ghandi's speech and the year of Churchill's speech.
+
+var = 
