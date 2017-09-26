@@ -59,7 +59,7 @@ difference = function() {
 
 // This speech was written by [author name] in [year]. It is [is year B.C.E.] that this year is B.C.E.
   document.getElementById('BtnChurchill').addEventListener('click', function(){
-  console.log("This speech was written by" + churchillSpeech.name + "in" + churchillSpeech.year + ". It is " + churchillSpeech.bce + "that this year is B.C.E.");
+  console.log("This speech was written by" + churchillSpeech.name + "in" + churchillSpeech.year + ". It is " +   churchillSpeech.bce + "that this year is B.C.E.");
   });
 
   document.getElementById('BtnGhandi').addEventListener('click', function(){
