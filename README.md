@@ -39,8 +39,6 @@ var demosthenesSpeech = {
 var allSpeeches = ['churchillSpeech', 'ghandiSpeech', 'demosthenesSpeech'];
 
 // a variable that contains a calculation of the difference between the year of Ghandi's speech and the year of Churchill's speech.
-
-
 // Once all your data is set up, write console log statement (that executes when the page loads) that displays the following (with x being the value you calculated previously):
 // Ghandi's speech and Churchill's speech are [x] years apart.
 
@@ -51,10 +49,12 @@ difference = function() {
 };
 
 // Then, when the user clicks the "Donate" button, make the console display how many speeches are in the array like this:
- 
+
 
 // There are [x] speeches on the page.
 
-allSpeeches = function() {
-  console.log("There are" + allSpeeches + "speeches on the page.");
-};
+document.getElementById('BtnDonate').addEventListener('click', function(){
+  console.log("There are" + allSpeeches.length + "speeches on the page.");
+  });
+
+// This speech was written by [author name] in [year]. It is [is year B.C.E.] that this year is B.C.E.
