@@ -53,8 +53,19 @@ difference = function() {
 
 // There are [x] speeches on the page.
 
-document.getElementById('BtnDonate').addEventListener('click', function(){
+  document.getElementById('BtnDonate').addEventListener('click', function(){
   console.log("There are" + allSpeeches.length + "speeches on the page.");
   });
 
 // This speech was written by [author name] in [year]. It is [is year B.C.E.] that this year is B.C.E.
+  document.getElementById('BtnChurchill').addEventListener('click', function(){
+  console.log("This speech was written by" + churchillSpeech.name + "in" + churchillSpeech.year + ". It is " + churchillSpeech.bce + "that this year is B.C.E.");
+  });
+
+  document.getElementById('BtnGhandi').addEventListener('click', function(){
+  console.log("This speech was written by" + ghandiSpeech.name + "in" + ghandiSpeech.year + ". It is " + ghandiSpeech.bce + "that this year is B.C.E.");
+  });
+
+  document.getElementById('BtnDemosthenes').addEventListener('click', function(){
+  console.log("This speech was written by" + demosthenesSpeech.name + "in" + demosthenesSpeech.year + ". It is " + demosthenesSpeech.bce + "that this year is B.C.E.");
+  });
