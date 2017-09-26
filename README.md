@@ -14,7 +14,7 @@ document.getElementById('BtnDemosthenes').addEventListener('click', function(){
   //Code in here executes when the user clicks the "Demosthenes" button.
 });
 
-// speech objects 
+// speech objects
 
 var churchillSpeech = {
     name: 'Winston Churchill',
@@ -30,14 +30,31 @@ var ghandiSpeech = {
 
 var demosthenesSpeech = {
     name: 'Demosthenes',
-    year: 342 B.C.E.,
+    year: 342,
     bce: true
 };
 
-// array of speeches 
+// array of speeches
 
 var allSpeeches = ['churchillSpeech', 'ghandiSpeech', 'demosthenesSpeech'];
 
 // a variable that contains a calculation of the difference between the year of Ghandi's speech and the year of Churchill's speech.
 
-var = 
+
+// Once all your data is set up, write console log statement (that executes when the page loads) that displays the following (with x being the value you calculated previously):
+// Ghandi's speech and Churchill's speech are [x] years apart.
+
+var difference =  ghandiSpeech.year - churchillSpeech.year;
+
+difference = function() {
+  console.log("Ghandi's speech and Churchill's speech are" + difference + " years apart");
+};
+
+// Then, when the user clicks the "Donate" button, make the console display how many speeches are in the array like this:
+ 
+
+// There are [x] speeches on the page.
+
+allSpeeches = function() {
+  console.log("There are" + allSpeeches + "speeches on the page.");
+};
